@@ -30,4 +30,8 @@ class RemoteDataSource internal constructor(
             emit(Result.Error(e))
         }
     }
+
+    private fun unknown(){
+
+    }
 }
